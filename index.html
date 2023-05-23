@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<style>
+			/* QUESTION 1
+			In CSS3, select and apply the "color" attribute to the following elements:
+			Every <a> element whose href attribute value begins with “https”: #008000
+			Select every <a> element whose href attribute value ends with “.pdf” #0000ff:
+			Select every <a> element whose href attribute value contains the substring “css”: #ff0000
+			ADD ANSWER HERE below...
+			*/
+			
+			a[href ^= "https"] {
+				color: #008000;
+			}
+
+			a[href $= ".pdf"] {
+				color: #0000ff;
+			}
+
+			a[href *= "css"] {
+				color: #ff0000;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!-- QUESTION 2: How would you make each .item element appear in its own evenly spaced column using flexbox? (only 2 css rules needed) -->
+		.item {
+			display: flex;
+			align-self: space-evenly;
+		}
+
+		<script>
+			/*
+			QUESTION 3
+			The code below produces the following error "$ is not defined" in wordpress, Jquery is present in the header and we
+			are using a default wordpress theme with no plugins. How would you fix it?
+			*/
+
+			/**
+			ANSWER 3:
+			I'd add '$' as parameter in the document.ready function so that it's available within the function and will not conflict with other plugins that uses it on the wordpress website
+			**/
+		</script>
+	</body>
+</html>

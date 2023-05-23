@@ -1,0 +1,8 @@
+# Dependencies required for your test need to be added here.
+# Note the existing dependencies here must not be changed.
+
+pytest==6.0.0
+beautifulsoup4==4.10.0
+selenium==3.141.0
+webdriver_manager==3.5.2
+pytest-custom_exit_code==0.3.0
